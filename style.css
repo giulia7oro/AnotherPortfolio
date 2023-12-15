@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+  --primary: #FFC1D7;
+}
+
+body {
+    background-image: url(./media/bg-new-display.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 100vh;
+    display: block;
+}
+
+img {
+  border-radius: 20%;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+
+.btn-primary {
+  background-color: var(--primary) !important;
+  color: black !important;
+}
+
+footer {
+  text-align: center;
+}
